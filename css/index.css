@@ -1,0 +1,23 @@
+.info-text { color: var(--farbe-grau); font-size: 13px; margin-bottom: 16px; }
+.test-karte {
+background: white; border: 1.5px solid var(--farbe-rand);
+border-radius: var(--radius); padding: 14px 16px;
+margin-bottom: 10px; cursor: pointer;
+display: flex; align-items: center;
+justify-content: space-between;
+text-decoration: none; color: inherit;
+transition: border-color 0.15s, box-shadow 0.15s;
+}
+.test-karte:hover { border-color: var(--farbe-haupt); box-shadow: 0 2px 8px
+rgba(0,0,0,0.08); }
+.test-karte.bald { border-color: #e67e22; background: #fff8f0; }
+.test-karte.vergangen { opacity: 0.6; }
+.test-fach { font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+.test-datum { font-size: 13px; color: var(--farbe-grau); }
+.test-countdown { font-size: 12px; font-weight: 600; color: var(--farbe-haupt); }
+.test-countdown.bald { color: #e67e22; }
+.test-countdown.heute { color: #c0392b; font-size: 13px; }
+.leer-text { text-align: center; color: var(--farbe-grau); margin: 32px 0 16px; }
+.btn-leer { display: block; text-align: center; padding: 12px;
+background: var(--farbe-haupt); color: white;
+border-radius: var(--radius); text-decoration: none; font-weight: 600; }
