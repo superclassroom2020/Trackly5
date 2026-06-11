@@ -1,0 +1,13 @@
+:root {--farbe-haupt: #4F46E5;--farbe-hell: #EEF2FF;--farbe-text: #1a1a18;--farbe-grau: #6b6b66;--farbe-rand: #e0ddd6;--farbe-bg: #f8f7f4;--nav-hoehe: 64px;--radius: 12px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: system-ui,-apple-system, sans-serif;
+    background: var(--farbe-bg);
+    color: var(--farbe-text);
+    font-size: 16px; line-height: 1.6;
+    padding-bottom: calc(var(--nav-hoehe) + 16px);
+}
+.seite { max-width: 480px; margin: 0 auto; padding: 20px 16px; }
+h1 { font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
