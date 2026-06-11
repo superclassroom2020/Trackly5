@@ -1,0 +1,25 @@
+.noten-info { color: var(--farbe-grau); font-size: 14px; margin-bottom: 16px; }
+.noten-karte {
+background: white; border: 1.5px solid var(--farbe-rand);
+border-radius: var(--radius); padding: 14px 16px; margin-bottom: 10px;
+}
+.noten-fach { font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+.noten-datum { font-size: 13px; color: var(--farbe-grau); margin-bottom: 10px; }
+.note-eingabe { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.note-eingabe label { font-size: 14px; font-weight: 600; white-space: nowrap; }
+.note-input {
+width: 64px; padding: 8px 10px;
+border: 1.5px solid var(--farbe-rand);
+border-radius: 8px; font-size: 16px; text-align: center;
+}
+.note-input:focus { outline: none; border-color: var(--farbe-haupt); }
+.note-speichern-btn {
+padding: 8px 14px; background: var(--farbe-haupt); color: white;
+border: none; border-radius: 8px;
+font-size: 14px; font-weight: 600; cursor: pointer;
+}
+.note-badge {
+display: inline-block; background: #27ae60; color: white;
+font-size: 12px; font-weight: 700;
+padding: 2px 8px; border-radius: 20px;
+}
