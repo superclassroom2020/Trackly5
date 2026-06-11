@@ -1,0 +1,28 @@
+
+.untertitel { color: var(--farbe-grau); margin-bottom: 24px; font-size: 14px; }
+.formular { display: flex; flex-direction: column; gap: 16px; }
+.feld-gruppe { display: flex; flex-direction: column; gap: 6px; }
+.feld-gruppe label { font-size: 14px; font-weight: 600; }
+.feld-gruppe input {
+padding: 12px 14px;
+border: 1.5px solid var(--farbe-rand);
+border-radius: var(--radius);
+font-size: 16px; font-family: inherit;
+background: white; color: var(--farbe-text);
+}
+.feld-gruppe input:focus {
+outline: none; border-color: var(--farbe-haupt);
+}
+.btn-haupt {
+padding: 14px; background: var(--farbe-haupt);
+color: white; border: none;
+border-radius: var(--radius);
+font-size: 16px; font-weight: 600; cursor: pointer;
+display: flex; align-items: center;
+justify-content: center; gap: 8px; margin-top: 8px;
+}
+.fehler {
+background: #fdecea; border: 1px solid #f5a0a0;
+border-radius: var(--radius); padding: 12px 14px;
+font-size: 14px; color: #c0392b; margin-bottom: 8px;
+}
