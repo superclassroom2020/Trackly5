@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testdetails - Trackly</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+</head>
+<body>
+<main class="seite">
+    <a href="index.html" class="zurueck-link">
+        <i class="ti ti-arrow-left" aria-hidden="true"></i>
+        Zurueck
+    </a>
+
+    <div id="nicht-gefunden" class="hinweis-box" hidden>
+        <p>Test nicht gefunden.</p>
+        <a href="index.html">Zurueck zur Uebersicht</a>
+    </div>
+
+    <div id="inhalt">
+        <div id="durchschnitt-box" class="durchschnitt-box"></div>
+
+        <div class="detail-karte">
+            <h1 id="detail-fach"></h1>
+            <p id="detail-datum" class="detail-datum"></p>
+
+            <div class="abschnitt">
+                <h2>Teststoff</h2>
+                <textarea id="teststoff-input" class="teststoff-input" placeholder="Was kommt im Test vor?"></textarea>
+                <button id="teststoff-speichern" class="btn-speichern">
+                    <i class="ti ti-device-floppy" aria-hidden="true"></i>
+                    Teststoff speichern
+                </button>
+                <p id="gespeichert-info" class="gespeichert-info" hidden>Gespeichert!</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="js/tests.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/detail.js"></script>
+</body>
+</html>

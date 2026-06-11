@@ -1,0 +1,91 @@
+.zurueck-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--farbe-haupt);
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.durchschnitt-box {
+    background: var(--farbe-haupt);
+    color: white;
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.durchschnitt-box:empty {
+    display: none;
+}
+
+.detail-karte,
+.hinweis-box {
+    background: white;
+    border: 1.5px solid var(--farbe-rand);
+    border-radius: var(--radius);
+    padding: 16px;
+}
+
+.hinweis-box a {
+    color: var(--farbe-haupt);
+    font-weight: 600;
+}
+
+.detail-datum {
+    color: var(--farbe-grau);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.abschnitt {
+    margin-top: 16px;
+}
+
+.abschnitt h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.teststoff-input {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid var(--farbe-rand);
+    border-radius: var(--radius);
+    font-family: inherit;
+    font-size: 15px;
+    resize: vertical;
+    min-height: 100px;
+    background: white;
+    color: var(--farbe-text);
+}
+
+.teststoff-input:focus {
+    outline: none;
+    border-color: var(--farbe-haupt);
+}
+
+.btn-speichern {
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: var(--farbe-haupt);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gespeichert-info {
+    color: #27ae60;
+    font-size: 13px;
+    margin-top: 6px;
+}
